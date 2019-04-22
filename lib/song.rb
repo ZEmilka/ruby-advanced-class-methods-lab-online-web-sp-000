@@ -14,7 +14,6 @@ class Song
     song=self.new
     song.name=name
     @@all<<song
-    song.new
   end
 
 end
