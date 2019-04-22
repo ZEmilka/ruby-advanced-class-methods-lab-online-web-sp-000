@@ -45,7 +45,9 @@ class Song
     row=file_name
     data=row.split("-")
     artist_name=data[0]
-    song_name=data[1]
+    song_name=data[1].gsub(".mp3"," ")
+
+    
   end
 
 
